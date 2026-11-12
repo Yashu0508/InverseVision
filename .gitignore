@@ -1,0 +1,45 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Temporary files and local environment settings
+*.tmp
+*.temp
+.env
+
+# Generated research outputs (keep directory markers)
+results/images/*
+!results/images/.gitkeep
+results/plots/*
+!results/plots/.gitkeep
+results/metrics/*
+!results/metrics/.gitkeep
+results/logs/*
+!results/logs/.gitkeep
