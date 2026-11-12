@@ -1,0 +1,58 @@
+{
+  "phase": 7,
+  "cases": [
+    {
+      "case_id": "resolution_32_sigma_1_5",
+      "image_shape": [
+        32,
+        32
+      ],
+      "sigma": 1.5
+    },
+    {
+      "case_id": "resolution_64_sigma_1_5",
+      "image_shape": [
+        64,
+        64
+      ],
+      "sigma": 1.5
+    },
+    {
+      "case_id": "resolution_128_sigma_1_5",
+      "image_shape": [
+        128,
+        128
+      ],
+      "sigma": 1.5
+    },
+    {
+      "case_id": "conditioning_64_sigma_0_6",
+      "image_shape": [
+        64,
+        64
+      ],
+      "sigma": 0.6
+    }
+  ],
+  "noise_standard_deviation": 0.01,
+  "random_seed": 42,
+  "kernel_size": 9,
+  "boundary": "zero, no boundary-row renormalization",
+  "vectorization": "C-order",
+  "iteration_budgets": [
+    8,
+    16,
+    32,
+    64
+  ],
+  "tolerance_values": [
+    0.05,
+    0.005
+  ],
+  "damping_parameter_lambda": 0.03,
+  "maximum_iterations": 64,
+  "damped_objective": "||A x-b||_2^2 + lambda^2 ||x||_2^2",
+  "matrix_free": true,
+  "full_dense_matrix_or_svd_for_scalable_cases": false,
+  "peak_memory": "not measured; only theoretical float64 storage estimates recorded"
+}

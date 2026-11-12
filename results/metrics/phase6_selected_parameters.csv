@@ -1,0 +1,67 @@
+case_id,sensitivity_axis,condition_value,method,criterion,selection_status,selected_parameter,selected_index,criterion_score,diagnostic
+noise_seed_7,noise,all_noise_seeds,TSVD,l_curve,success,28.0,27,52.222026681325346,Selected maximum finite discrete log-log L-curve curvature. Selected candidate index 27.
+noise_seed_7,noise,all_noise_seeds,TSVD,gcv,success,34.0,33,0.0001100755361953379,Selected minimum GCV using effective degrees of freedom. Selected candidate index 33.
+noise_seed_7,noise,all_noise_seeds,TSVD,discrepancy,success,21.0,20,0.0003664132885842497,Selected candidate nearest the discrepancy target. Selected candidate index 20.
+noise_seed_7,noise,all_noise_seeds,Tikhonov,l_curve,success,0.015335657491674764,121,9.297043544580115,Selected maximum finite discrete log-log L-curve curvature. Selected candidate index 121.
+noise_seed_7,noise,all_noise_seeds,Tikhonov,gcv,success,0.03167396265961216,130,0.0001124386496698613,Selected minimum GCV using effective degrees of freedom. Selected candidate index 130.
+noise_seed_7,noise,all_noise_seeds,Tikhonov,discrepancy,success,0.08331101016006738,142,0.0008372547760705229,Selected candidate nearest the discrepancy target. Selected candidate index 142.
+noise_seed_21,noise,all_noise_seeds,TSVD,l_curve,success,52.0,51,101.2773513416978,Selected maximum finite discrete log-log L-curve curvature. Selected candidate index 51.
+noise_seed_21,noise,all_noise_seeds,TSVD,gcv,success,32.0,31,0.0001160535306492084,Selected minimum GCV using effective degrees of freedom. Selected candidate index 31.
+noise_seed_21,noise,all_noise_seeds,TSVD,discrepancy,success,21.0,20,0.00241941118208569,Selected candidate nearest the discrepancy target. Selected candidate index 20.
+noise_seed_21,noise,all_noise_seeds,Tikhonov,l_curve,success,0.016622731899437183,122,10.86503316173361,Selected maximum finite discrete log-log L-curve curvature. Selected candidate index 122.
+noise_seed_21,noise,all_noise_seeds,Tikhonov,gcv,success,0.03721366128402424,132,0.0001220522443209662,Selected minimum GCV using effective degrees of freedom. Selected candidate index 132.
+noise_seed_21,noise,all_noise_seeds,Tikhonov,discrepancy,success,0.08331101016006738,142,0.0015800656165352867,Selected candidate nearest the discrepancy target. Selected candidate index 142.
+noise_seed_42,noise,all_noise_seeds,TSVD,l_curve,success,24.0,23,103.4532867196608,Selected maximum finite discrete log-log L-curve curvature. Selected candidate index 23.
+noise_seed_42,noise,all_noise_seeds,TSVD,gcv,success,142.0,141,6.841112977396896e-05,Selected minimum GCV using effective degrees of freedom. Selected candidate index 141.
+noise_seed_42,noise,all_noise_seeds,TSVD,discrepancy,success,18.0,17,0.006199066548366258,Selected candidate nearest the discrepancy target. Selected candidate index 17.
+noise_seed_42,noise,all_noise_seeds,Tikhonov,l_curve,success,0.01110970175836263,117,8.335979484180193,Selected maximum finite discrete log-log L-curve curvature. Selected candidate index 117.
+noise_seed_42,noise,all_noise_seeds,Tikhonov,gcv,success,0.02487152416963625,127,8.472090591307214e-05,Selected minimum GCV using effective degrees of freedom. Selected candidate index 127.
+noise_seed_42,noise,all_noise_seeds,Tikhonov,discrepancy,success,0.090303046146791,143,0.0008167082169973083,Selected candidate nearest the discrepancy target. Selected candidate index 143.
+noise_seed_84,noise,all_noise_seeds,TSVD,l_curve,success,56.0,55,3528.8974625483133,Selected maximum finite discrete log-log L-curve curvature. Selected candidate index 55.
+noise_seed_84,noise,all_noise_seeds,TSVD,gcv,success,36.0,35,0.00014115285646274815,Selected minimum GCV using effective degrees of freedom. Selected candidate index 35.
+noise_seed_84,noise,all_noise_seeds,TSVD,discrepancy,success,26.0,25,0.0005292589382528967,Selected candidate nearest the discrepancy target. Selected candidate index 25.
+noise_seed_84,noise,all_noise_seeds,Tikhonov,l_curve,success,0.014148239418451017,120,12.225890384524885,Selected maximum finite discrete log-log L-curve curvature. Selected candidate index 120.
+noise_seed_84,noise,all_noise_seeds,Tikhonov,gcv,success,0.03167396265961216,130,0.000139635111174211,Selected minimum GCV using effective degrees of freedom. Selected candidate index 130.
+noise_seed_84,noise,all_noise_seeds,Tikhonov,discrepancy,success,0.07090916974829796,140,0.0017779502378371115,Selected candidate nearest the discrepancy target. Selected candidate index 140.
+noise_seed_126,noise,all_noise_seeds,TSVD,l_curve,success,37.0,36,247.92414804659205,Selected maximum finite discrete log-log L-curve curvature. Selected candidate index 36.
+noise_seed_126,noise,all_noise_seeds,TSVD,gcv,success,33.0,32,0.00017929168263427586,Selected minimum GCV using effective degrees of freedom. Selected candidate index 32.
+noise_seed_126,noise,all_noise_seeds,TSVD,discrepancy,success,32.0,31,0.0008500306615330522,Selected candidate nearest the discrepancy target. Selected candidate index 31.
+noise_seed_126,noise,all_noise_seeds,Tikhonov,l_curve,success,0.01801782649035877,123,6.127722827070865,Selected maximum finite discrete log-log L-curve curvature. Selected candidate index 123.
+noise_seed_126,noise,all_noise_seeds,Tikhonov,gcv,success,0.029221492934525063,129,0.00017482235789080482,Selected minimum GCV using effective degrees of freedom. Selected candidate index 129.
+noise_seed_126,noise,all_noise_seeds,Tikhonov,discrepancy,success,0.05568040690697811,137,0.0004634794085259242,Selected candidate nearest the discrepancy target. Selected candidate index 137.
+blur_sigma_0.8,blur,sigma_0.8,TSVD,l_curve,success,87.0,86,27.642976210867577,Selected maximum finite discrete log-log L-curve curvature. Selected candidate index 86.
+blur_sigma_0.8,blur,sigma_0.8,TSVD,gcv,success,70.0,69,0.00019297139784541466,Selected minimum GCV using effective degrees of freedom. Selected candidate index 69.
+blur_sigma_0.8,blur,sigma_0.8,TSVD,discrepancy,success,58.0,57,0.000699837814113563,Selected candidate nearest the discrepancy target. Selected candidate index 57.
+blur_sigma_0.8,blur,sigma_0.8,Tikhonov,l_curve,success,0.9314558825902487,171,0.6907601970869877,Selected maximum finite discrete log-log L-curve curvature. Selected candidate index 171.
+blur_sigma_0.8,blur,sigma_0.8,Tikhonov,gcv,success,0.015281369951641123,120,0.0001833445696079151,Selected minimum GCV using effective degrees of freedom. Selected candidate index 120.
+blur_sigma_0.8,blur,sigma_0.8,Tikhonov,discrepancy,success,0.11459410837402668,145,0.002126585567691547,Selected candidate nearest the discrepancy target. Selected candidate index 145.
+blur_sigma_1.5,blur,sigma_1.5,TSVD,l_curve,success,24.0,23,103.4532867196608,Selected maximum finite discrete log-log L-curve curvature. Selected candidate index 23.
+blur_sigma_1.5,blur,sigma_1.5,TSVD,gcv,success,142.0,141,6.841112977396896e-05,Selected minimum GCV using effective degrees of freedom. Selected candidate index 141.
+blur_sigma_1.5,blur,sigma_1.5,TSVD,discrepancy,success,18.0,17,0.006199066548366258,Selected candidate nearest the discrepancy target. Selected candidate index 17.
+blur_sigma_1.5,blur,sigma_1.5,Tikhonov,l_curve,success,0.01110970175836263,117,8.335979484180193,Selected maximum finite discrete log-log L-curve curvature. Selected candidate index 117.
+blur_sigma_1.5,blur,sigma_1.5,Tikhonov,gcv,success,0.02487152416963625,127,8.472090591307214e-05,Selected minimum GCV using effective degrees of freedom. Selected candidate index 127.
+blur_sigma_1.5,blur,sigma_1.5,Tikhonov,discrepancy,success,0.090303046146791,143,0.0008167082169973083,Selected candidate nearest the discrepancy target. Selected candidate index 143.
+blur_sigma_2.2,blur,sigma_2.2,TSVD,l_curve,success,40.0,39,238.64619082986917,Selected maximum finite discrete log-log L-curve curvature. Selected candidate index 39.
+blur_sigma_2.2,blur,sigma_2.2,TSVD,gcv,success,22.0,21,8.110319659065636e-05,Selected minimum GCV using effective degrees of freedom. Selected candidate index 21.
+blur_sigma_2.2,blur,sigma_2.2,TSVD,discrepancy,success,11.0,10,0.005866135747265411,Selected candidate nearest the discrepancy target. Selected candidate index 10.
+blur_sigma_2.2,blur,sigma_2.2,Tikhonov,l_curve,success,0.018134929525469166,124,6.617985702476194,Selected maximum finite discrete log-log L-curve curvature. Selected candidate index 124.
+blur_sigma_2.2,blur,sigma_2.2,Tikhonov,gcv,success,0.025033171356639877,128,8.211670720094473e-05,Selected minimum GCV using effective degrees of freedom. Selected candidate index 128.
+blur_sigma_2.2,blur,sigma_2.2,Tikhonov,discrepancy,success,0.0773598951047543,142,0.0019945872887264238,Selected candidate nearest the discrepancy target. Selected candidate index 142.
+resolution_6x6,resolution,resolution_6x6,TSVD,l_curve,success,13.0,12,9.998722203165887,Selected maximum finite discrete log-log L-curve curvature. Selected candidate index 12.
+resolution_6x6,resolution,resolution_6x6,TSVD,gcv,success,8.0,7,0.00010201979305619661,Selected minimum GCV using effective degrees of freedom. Selected candidate index 7.
+resolution_6x6,resolution,resolution_6x6,TSVD,discrepancy,success,7.0,6,0.0012623822121693995,Selected candidate nearest the discrepancy target. Selected candidate index 6.
+resolution_6x6,resolution,resolution_6x6,Tikhonov,l_curve,success,0.01663503362884593,125,4.403619845113586,Selected maximum finite discrete log-log L-curve curvature. Selected candidate index 125.
+resolution_6x6,resolution,resolution_6x6,Tikhonov,gcv,success,6.934636212865302e-05,57,9.078588231814584e-05,Selected minimum GCV using effective degrees of freedom. Selected candidate index 57.
+resolution_6x6,resolution,resolution_6x6,Tikhonov,discrepancy,success,0.07096164640641422,143,0.0017317009939527978,Selected candidate nearest the discrepancy target. Selected candidate index 143.
+resolution_12x12,resolution,resolution_12x12,TSVD,l_curve,success,24.0,23,103.4532867196608,Selected maximum finite discrete log-log L-curve curvature. Selected candidate index 23.
+resolution_12x12,resolution,resolution_12x12,TSVD,gcv,success,142.0,141,6.841112977396896e-05,Selected minimum GCV using effective degrees of freedom. Selected candidate index 141.
+resolution_12x12,resolution,resolution_12x12,TSVD,discrepancy,success,18.0,17,0.006199066548366258,Selected candidate nearest the discrepancy target. Selected candidate index 17.
+resolution_12x12,resolution,resolution_12x12,Tikhonov,l_curve,success,0.01110970175836263,117,8.335979484180193,Selected maximum finite discrete log-log L-curve curvature. Selected candidate index 117.
+resolution_12x12,resolution,resolution_12x12,Tikhonov,gcv,success,0.02487152416963625,127,8.472090591307214e-05,Selected minimum GCV using effective degrees of freedom. Selected candidate index 127.
+resolution_12x12,resolution,resolution_12x12,Tikhonov,discrepancy,success,0.090303046146791,143,0.0008167082169973083,Selected candidate nearest the discrepancy target. Selected candidate index 143.
+resolution_16x16,resolution,resolution_16x16,TSVD,l_curve,success,89.0,88,86.26275897626603,Selected maximum finite discrete log-log L-curve curvature. Selected candidate index 88.
+resolution_16x16,resolution,resolution_16x16,TSVD,gcv,success,62.0,61,0.00010846717606763702,Selected minimum GCV using effective degrees of freedom. Selected candidate index 61.
+resolution_16x16,resolution,resolution_16x16,TSVD,discrepancy,success,37.0,36,8.57163543502848e-05,Selected candidate nearest the discrepancy target. Selected candidate index 36.
+resolution_16x16,resolution,resolution_16x16,Tikhonov,l_curve,success,0.013656930190589158,119,7.23136681465701,Selected maximum finite discrete log-log L-curve curvature. Selected candidate index 119.
+resolution_16x16,resolution,resolution_16x16,Tikhonov,gcv,success,0.02820675260493258,128,0.00010683001490954715,Selected minimum GCV using effective degrees of freedom. Selected candidate index 128.
+resolution_16x16,resolution,resolution_16x16,Tikhonov,discrepancy,success,0.08041796694362628,141,0.004644751598712665,Selected candidate nearest the discrepancy target. Selected candidate index 141.

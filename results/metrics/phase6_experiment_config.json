@@ -1,0 +1,193 @@
+{
+  "phase": 6,
+  "image_source": "skimage.data.camera resized with Pillow LANCZOS and normalized",
+  "cases": [
+    {
+      "case_id": "noise_seed_7",
+      "sensitivity_axis": "noise",
+      "condition_value": "all_noise_seeds",
+      "image_shape": [
+        12,
+        12
+      ],
+      "sigma": 1.5,
+      "noise_standard_deviation": 0.01,
+      "random_seed": 7,
+      "kernel_size": 9,
+      "boundary": "zero"
+    },
+    {
+      "case_id": "noise_seed_21",
+      "sensitivity_axis": "noise",
+      "condition_value": "all_noise_seeds",
+      "image_shape": [
+        12,
+        12
+      ],
+      "sigma": 1.5,
+      "noise_standard_deviation": 0.01,
+      "random_seed": 21,
+      "kernel_size": 9,
+      "boundary": "zero"
+    },
+    {
+      "case_id": "noise_seed_42",
+      "sensitivity_axis": "noise",
+      "condition_value": "all_noise_seeds",
+      "image_shape": [
+        12,
+        12
+      ],
+      "sigma": 1.5,
+      "noise_standard_deviation": 0.01,
+      "random_seed": 42,
+      "kernel_size": 9,
+      "boundary": "zero"
+    },
+    {
+      "case_id": "noise_seed_84",
+      "sensitivity_axis": "noise",
+      "condition_value": "all_noise_seeds",
+      "image_shape": [
+        12,
+        12
+      ],
+      "sigma": 1.5,
+      "noise_standard_deviation": 0.01,
+      "random_seed": 84,
+      "kernel_size": 9,
+      "boundary": "zero"
+    },
+    {
+      "case_id": "noise_seed_126",
+      "sensitivity_axis": "noise",
+      "condition_value": "all_noise_seeds",
+      "image_shape": [
+        12,
+        12
+      ],
+      "sigma": 1.5,
+      "noise_standard_deviation": 0.01,
+      "random_seed": 126,
+      "kernel_size": 9,
+      "boundary": "zero"
+    },
+    {
+      "case_id": "blur_sigma_0.8",
+      "sensitivity_axis": "blur",
+      "condition_value": "sigma_0.8",
+      "image_shape": [
+        12,
+        12
+      ],
+      "sigma": 0.8,
+      "noise_standard_deviation": 0.01,
+      "random_seed": 42,
+      "kernel_size": 9,
+      "boundary": "zero"
+    },
+    {
+      "case_id": "blur_sigma_1.5",
+      "sensitivity_axis": "blur",
+      "condition_value": "sigma_1.5",
+      "image_shape": [
+        12,
+        12
+      ],
+      "sigma": 1.5,
+      "noise_standard_deviation": 0.01,
+      "random_seed": 42,
+      "kernel_size": 9,
+      "boundary": "zero"
+    },
+    {
+      "case_id": "blur_sigma_2.2",
+      "sensitivity_axis": "blur",
+      "condition_value": "sigma_2.2",
+      "image_shape": [
+        12,
+        12
+      ],
+      "sigma": 2.2,
+      "noise_standard_deviation": 0.01,
+      "random_seed": 42,
+      "kernel_size": 9,
+      "boundary": "zero"
+    },
+    {
+      "case_id": "resolution_6x6",
+      "sensitivity_axis": "resolution",
+      "condition_value": "resolution_6x6",
+      "image_shape": [
+        6,
+        6
+      ],
+      "sigma": 1.5,
+      "noise_standard_deviation": 0.01,
+      "random_seed": 42,
+      "kernel_size": 9,
+      "boundary": "zero"
+    },
+    {
+      "case_id": "resolution_12x12",
+      "sensitivity_axis": "resolution",
+      "condition_value": "resolution_12x12",
+      "image_shape": [
+        12,
+        12
+      ],
+      "sigma": 1.5,
+      "noise_standard_deviation": 0.01,
+      "random_seed": 42,
+      "kernel_size": 9,
+      "boundary": "zero"
+    },
+    {
+      "case_id": "resolution_16x16",
+      "sensitivity_axis": "resolution",
+      "condition_value": "resolution_16x16",
+      "image_shape": [
+        16,
+        16
+      ],
+      "sigma": 1.5,
+      "noise_standard_deviation": 0.01,
+      "random_seed": 42,
+      "kernel_size": 9,
+      "boundary": "zero"
+    }
+  ],
+  "noise_seeds": [
+    7,
+    21,
+    42,
+    84,
+    126
+  ],
+  "noise_standard_deviation": 0.01,
+  "kernel_size": 9,
+  "boundary": "zero, no boundary renormalization",
+  "rank_relative_tolerance": 1e-12,
+  "discrepancy_factor": 1.05,
+  "candidate_grids": {
+    "tsvd": "integer ranks 1 through numerical rank",
+    "tikhonov": "201 log-spaced lambdas from 1e-6*s_max to 10*s_max"
+  },
+  "methods": [
+    "TSVD:L-curve",
+    "TSVD:GCV",
+    "TSVD:discrepancy",
+    "Tikhonov:L-curve",
+    "Tikhonov:GCV",
+    "Tikhonov:discrepancy",
+    "direct_inverse",
+    "qr_least_squares",
+    "normal_equations"
+  ],
+  "maximum_exact_dense_svd_dimension": 256,
+  "instability_flag_thresholds": {
+    "relative_reconstruction_error_at_least": 10.0,
+    "reconstruction_to_reference_norm_at_least": 10.0
+  },
+  "phase5_outputs_are_not_modified": true
+}

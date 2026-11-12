@@ -1,0 +1,4 @@
+solver,status,diagnostic,execution_time_seconds,relative_reconstruction_error,mean_squared_error,peak_signal_to_noise_ratio,structural_similarity_index,residual_norm,relative_residual
+Direct inverse,success,Unregularized explicit inverse: x = inv(A) @ b.,0.005932800006121397,19488.53387584877,124268649.46921062,-80.94361578522368,2.8406236672866865e-08,3.484413722802749e-09,6.681849857020231e-10
+QR least squares,success,Unregularized economic QR followed by triangular solution.,0.0034148000413551927,19488.53387524743,124268649.46154176,-80.94361578495567,2.8406236744593592e-08,8.418697465748626e-12,1.6144027929198195e-12
+Normal equations,success,Unregularized solution of (A.T @ A) x = A.T @ b.,0.0016469999682158232,20340.125293388854,135366278.51759338,-81.31510489476784,-5.269792343794548e-09,0.00017965664088927274,3.445166951280194e-05

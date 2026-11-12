@@ -1,0 +1,9 @@
+case_id,method,iteration_count,requested_iteration_limit,relative_reconstruction_error,residual_norm,relative_residual,execution_time_seconds,relative_tolerance,termination_status,comparison_scope,source_file,source_row
+conditioning_64_sigma_0_6,LSQR,8,8,0.04760934138890858,0.1397354882158531,0.0038424580313204063,0.0008681999752297997,1e-14,iteration limit reached,strict_compatible,phase7_iterative_results.csv,75
+conditioning_64_sigma_0_6,damped_LSQR,8,8,0.04712341195803282,0.1440818339061884,0.003961974205185457,0.0010494999587535858,1e-14,iteration limit reached,strict_compatible,phase7_iterative_results.csv,79
+resolution_128_sigma_1_5,LSQR,8,8,0.09275454615020308,1.2368702646249663,0.017157082105572038,0.00874590000603348,1e-14,iteration limit reached,strict_compatible,phase7_iterative_results.csv,53
+resolution_128_sigma_1_5,damped_LSQR,8,8,0.09283405660395419,1.2389755507573754,0.017186285303403315,0.008884000009857118,1e-14,iteration limit reached,strict_compatible,phase7_iterative_results.csv,57
+resolution_32_sigma_1_5,LSQR,16,16,0.1167958532616346,0.2775186485949892,0.016720865918445123,0.0007148999720811844,1e-14,iteration limit reached,strict_compatible,phase7_iterative_results.csv,10
+resolution_32_sigma_1_5,damped_LSQR,16,16,0.11566669035341791,0.27864000987440746,0.016788429419832204,0.0006671999581158161,1e-14,iteration limit reached,strict_compatible,phase7_iterative_results.csv,14
+resolution_64_sigma_1_5,LSQR,8,8,0.10444425352803408,0.6266966378941976,0.017874895199604023,0.000837799976579845,1e-14,iteration limit reached,strict_compatible,phase7_iterative_results.csv,31
+resolution_64_sigma_1_5,damped_LSQR,8,8,0.10459644558475491,0.6278322444770725,0.017907285430266626,0.0008594999089837074,1e-14,iteration limit reached,strict_compatible,phase7_iterative_results.csv,35

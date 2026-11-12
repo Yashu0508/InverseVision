@@ -1,0 +1,10 @@
+Completed small-system comparison against QR and SVD Tikhonov references.
+Running matrix-free case resolution_32_sigma_1_5
+resolution_32_sigma_1_5 shape=(32, 32) sigma=1.5 records=22 case_seconds=0.035
+Running matrix-free case resolution_64_sigma_1_5
+resolution_64_sigma_1_5 shape=(64, 64) sigma=1.5 records=22 case_seconds=0.054
+Running matrix-free case resolution_128_sigma_1_5
+resolution_128_sigma_1_5 shape=(128, 128) sigma=1.5 records=22 case_seconds=0.439
+Running matrix-free case conditioning_64_sigma_0_6
+conditioning_64_sigma_0_6 shape=(64, 64) sigma=0.6 records=22 case_seconds=0.058
+Completed 4 matrix-free cases and 88 experiment rows.

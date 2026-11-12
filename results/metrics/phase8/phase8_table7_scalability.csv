@@ -1,0 +1,9 @@
+case_id,image_shape,method,iteration_count,runtime_seconds,theoretical_dense_operator_bytes,theoretical_separable_factor_bytes,storage_interpretation,comparison_scope,source_file
+resolution_128_sigma_1_5,128x128,LSQR,8,0.00874590000603348,2147483648,262144,Theoretical float64 array storage; peak RAM was not measured.,strict_compatible,phase7_iterative_results.csv
+resolution_128_sigma_1_5,128x128,damped_LSQR,8,0.008884000009857118,2147483648,262144,Theoretical float64 array storage; peak RAM was not measured.,strict_compatible,phase7_iterative_results.csv
+resolution_32_sigma_1_5,32x32,LSQR,16,0.0007148999720811844,8388608,16384,Theoretical float64 array storage; peak RAM was not measured.,strict_compatible,phase7_iterative_results.csv
+resolution_32_sigma_1_5,32x32,damped_LSQR,16,0.0006671999581158161,8388608,16384,Theoretical float64 array storage; peak RAM was not measured.,strict_compatible,phase7_iterative_results.csv
+resolution_64_sigma_1_5,64x64,LSQR,8,0.000837799976579845,134217728,65536,Theoretical float64 array storage; peak RAM was not measured.,strict_compatible,phase7_iterative_results.csv
+conditioning_64_sigma_0_6,64x64,LSQR,8,0.0008681999752297997,134217728,65536,Theoretical float64 array storage; peak RAM was not measured.,strict_compatible,phase7_iterative_results.csv
+resolution_64_sigma_1_5,64x64,damped_LSQR,8,0.0008594999089837074,134217728,65536,Theoretical float64 array storage; peak RAM was not measured.,strict_compatible,phase7_iterative_results.csv
+conditioning_64_sigma_0_6,64x64,damped_LSQR,8,0.0010494999587535858,134217728,65536,Theoretical float64 array storage; peak RAM was not measured.,strict_compatible,phase7_iterative_results.csv

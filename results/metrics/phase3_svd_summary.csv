@@ -1,0 +1,2 @@
+rows,columns,relative_tolerance,rank_threshold,numerical_rank,total_singular_values,largest_singular_value,smallest_singular_value,condition_number,diagnostic
+64,64,1e-12,7.986339724989663e-13,64,64,0.7986339724989663,4.5084015520148496e-07,1771434.871727539,Numerically full rank under the reported threshold.

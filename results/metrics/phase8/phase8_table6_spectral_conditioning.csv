@@ -1,0 +1,8 @@
+evidence_type,source_file,source_row,comparison_scope,image_shape,sigma,numerical_rank,condition_number,largest_singular_value,smallest_singular_value,storage_or_validation_note
+SVD summary,phase3_svd_summary.csv,1,descriptive_unknown_configuration,64x64,,64,1771434.871727539,0.7986339724989663,4.5084015520148496e-07,Numerically full rank under the reported threshold.
+blur sensitivity,phase3_blur_sensitivity.csv,1,strict_compatible,16x16,0.5,256,2.973573946624879,0.9926962003280085,0.33383941954924545,Different blur strengths; not an independent reconstruction comparison.
+blur sensitivity,phase3_blur_sensitivity.csv,2,strict_compatible,16x16,1.0,256,3423.8614306434106,0.9677226391383622,0.0002826407139253028,Different blur strengths; not an independent reconstruction comparison.
+blur sensitivity,phase3_blur_sensitivity.csv,3,strict_compatible,16x16,1.5,256,16302073.51714723,0.9340133623453312,5.7294144905118685e-08,Different blur strengths; not an independent reconstruction comparison.
+blur sensitivity,phase3_blur_sensitivity.csv,4,strict_compatible,16x16,2.0,256,22603441.050210714,0.902232855344129,3.991573023505278e-08,Different blur strengths; not an independent reconstruction comparison.
+blur sensitivity,phase3_blur_sensitivity.csv,5,strict_compatible,16x16,3.0,256,23507959.317142088,0.8652132990464914,3.6805121506892123e-08,Different blur strengths; not an independent reconstruction comparison.
+structured SVD validation,phase3_structured_vs_full_svd.csv,1,descriptive_unknown_configuration,8x8,,,,,,max spectrum difference=8.326672684688674e-16; full bytes=32768; structured bytes=1024

@@ -1,0 +1,8 @@
+method,tolerance,iteration_limit,iterations,termination_status,relative_solution_difference_from_QR,relative_solution_difference_from_Tikhonov,residual_norm,normal_equation_residual_norm,diagnostic
+LSQR,0.05,128,2,compatible residual tolerance reached,0.2889344908622968,nan,0.26336384719995315,0.13042617990332056,LSQR converges toward the unregularized QR least-squares solution.
+damped_LSQR,0.05,128,2,compatible residual tolerance reached,nan,0.19085051228561647,0.26370977115964794,0.12934905861738225,damp=lambda; reference objective is ||Ax-b||^2 + lambda^2||x||^2.
+LSQR,0.005,128,7,compatible residual tolerance reached,0.22277638884404383,nan,0.05612442952931327,0.015416106383489232,LSQR converges toward the unregularized QR least-squares solution.
+damped_LSQR,0.005,128,13,least-squares normal-residual tolerance reached,nan,0.024237054218005368,0.03128721093311445,0.001597752217642943,damp=lambda; reference objective is ||Ax-b||^2 + lambda^2||x||^2.
+LSQR,1e-12,128,68,compatible residual tolerance reached,1.679119007258592e-11,nan,1.2722068207906017e-11,3.122532026004226e-12,LSQR converges toward the unregularized QR least-squares solution.
+damped_LSQR,1e-12,128,60,least-squares normal-residual tolerance reached,nan,1.322655607950027e-12,0.027915643857882942,2.958017691351089e-13,damp=lambda; reference objective is ||Ax-b||^2 + lambda^2||x||^2.
+CGLS,1e-12,128,68,normal-residual tolerance reached,3.84431822361633e-12,nan,4.329899722094178e-12,1.963781153008687e-12,CGLS converges toward the unregularized QR least-squares solution.

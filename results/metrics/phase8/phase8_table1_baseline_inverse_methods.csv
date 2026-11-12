@@ -1,0 +1,4 @@
+source_file,source_row,method,comparison_scope,relative_reconstruction_error,mean_squared_error,psnr_db,ssim,residual_norm,relative_residual
+phase2_baseline_comparison.csv,1,Direct inverse,descriptive_unknown_configuration,19488.53387584877,124268649.46921062,-80.94361578522368,2.8406236672866865e-08,3.484413722802749e-09,6.681849857020231e-10
+phase2_baseline_comparison.csv,2,QR least squares,descriptive_unknown_configuration,19488.53387524743,124268649.46154176,-80.94361578495567,2.8406236744593592e-08,8.418697465748626e-12,1.6144027929198195e-12
+phase2_baseline_comparison.csv,3,Normal equations,descriptive_unknown_configuration,20340.125293388854,135366278.51759338,-81.31510489476784,-5.269792343794548e-09,0.00017965664088927274,3.445166951280194e-05

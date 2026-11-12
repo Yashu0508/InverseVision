@@ -1,0 +1,23 @@
+Running noise_seed_7
+noise_seed_7 rank=144 condition=5.67671e+07 methods=9 unstable=3
+Running noise_seed_21
+noise_seed_21 rank=144 condition=5.67671e+07 methods=9 unstable=3
+Running noise_seed_42
+noise_seed_42 rank=144 condition=5.67671e+07 methods=9 unstable=4
+Running noise_seed_84
+noise_seed_84 rank=144 condition=5.67671e+07 methods=9 unstable=3
+Running noise_seed_126
+noise_seed_126 rank=144 condition=5.67671e+07 methods=9 unstable=3
+Running blur_sigma_0.8
+blur_sigma_0.8 rank=144 condition=109.603 methods=9 unstable=0
+Running blur_sigma_1.5
+blur_sigma_1.5 rank=144 condition=5.67671e+07 methods=9 unstable=4
+Running blur_sigma_2.2
+blur_sigma_2.2 rank=144 condition=487956 methods=9 unstable=3
+Running resolution_6x6
+resolution_6x6 rank=36 condition=464442 methods=9 unstable=4
+Running resolution_12x12
+resolution_12x12 rank=144 condition=5.67671e+07 methods=9 unstable=4
+Running resolution_16x16
+resolution_16x16 rank=256 condition=1.63021e+07 methods=9 unstable=3
+Completed 11 cases and 99 method records; wrote Phase 6 artifacts.

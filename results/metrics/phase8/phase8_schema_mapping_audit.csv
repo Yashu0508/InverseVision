@@ -1,0 +1,269 @@
+source_file,source_phase,original_source_column,canonical_destination,mapping_type,mapping_justified,preserved_as_source_specific,reason,processing_status
+phase2_baseline_comparison.csv,phase2,__source__,record_type;analytical_category,source adapter classification,yes,yes,All original fields are retained in source_attributes_json.,processed
+phase2_baseline_comparison.csv,phase2,solver,solver,identity or method,yes,yes,,processed
+phase2_baseline_comparison.csv,phase2,status,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase2_baseline_comparison.csv,phase2,diagnostic,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase2_baseline_comparison.csv,phase2,execution_time_seconds,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase2_baseline_comparison.csv,phase2,relative_reconstruction_error,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase2_baseline_comparison.csv,phase2,mean_squared_error,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase2_baseline_comparison.csv,phase2,peak_signal_to_noise_ratio,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase2_baseline_comparison.csv,phase2,structural_similarity_index,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase2_baseline_comparison.csv,phase2,residual_norm,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase2_baseline_comparison.csv,phase2,relative_residual,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase3_blur_sensitivity.csv,phase3,__source__,record_type;analytical_category,source adapter classification,yes,yes,All original fields are retained in source_attributes_json.,processed
+phase3_blur_sensitivity.csv,phase3,sigma,blur_sigma,explicit configuration,yes,yes,,processed
+phase3_blur_sensitivity.csv,phase3,rows,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase3_blur_sensitivity.csv,phase3,columns,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase3_blur_sensitivity.csv,phase3,kernel_size,kernel_size,explicit configuration,yes,yes,,processed
+phase3_blur_sensitivity.csv,phase3,relative_tolerance,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase3_blur_sensitivity.csv,phase3,rank_threshold,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase3_blur_sensitivity.csv,phase3,numerical_rank,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase3_blur_sensitivity.csv,phase3,total_singular_values,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase3_blur_sensitivity.csv,phase3,largest_singular_value,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase3_blur_sensitivity.csv,phase3,smallest_singular_value,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase3_blur_sensitivity.csv,phase3,condition_number,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase3_blur_sensitivity.csv,phase3,median_normalized_singular_value,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase3_blur_sensitivity.csv,phase3,components_for_90_percent_energy,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase3_picard_noise.csv,phase3,__source__,record_type;analytical_category,source adapter classification,yes,yes,All original fields are retained in source_attributes_json.,processed
+phase3_picard_noise.csv,phase3,index,observation_index,observation identity,yes,yes,,processed
+phase3_picard_noise.csv,phase3,singular_value,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase3_picard_noise.csv,phase3,expansion_coefficient,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase3_picard_noise.csv,phase3,coefficient_magnitude,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase3_picard_noise.csv,phase3,coefficient_to_singular_value_ratio,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase3_picard_noise.csv,phase3,transformed_noise_coefficient,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase3_picard_noise.csv,phase3,noise_contribution_magnitude,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase3_picard_noise.csv,phase3,safe_denominator,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase3_structured_vs_full_svd.csv,phase3,__source__,record_type;analytical_category,source adapter classification,yes,yes,All original fields are retained in source_attributes_json.,processed
+phase3_structured_vs_full_svd.csv,phase3,rows,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase3_structured_vs_full_svd.csv,phase3,columns,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase3_structured_vs_full_svd.csv,phase3,timing_repeats,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase3_structured_vs_full_svd.csv,phase3,rank_relative_tolerance,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase3_structured_vs_full_svd.csv,phase3,maximum_absolute_spectrum_difference,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase3_structured_vs_full_svd.csv,phase3,maximum_relative_spectrum_difference,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase3_structured_vs_full_svd.csv,phase3,dense_operator_input_bytes,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase3_structured_vs_full_svd.csv,phase3,structured_factor_input_bytes,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase3_structured_vs_full_svd.csv,phase3,full_analysis_output_bytes,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase3_structured_vs_full_svd.csv,phase3,structured_spectrum_output_bytes,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase3_structured_vs_full_svd.csv,phase3,full_min_seconds,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase3_structured_vs_full_svd.csv,phase3,full_median_seconds,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase3_structured_vs_full_svd.csv,phase3,full_max_seconds,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase3_structured_vs_full_svd.csv,phase3,structured_min_seconds,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase3_structured_vs_full_svd.csv,phase3,structured_median_seconds,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase3_structured_vs_full_svd.csv,phase3,structured_max_seconds,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase3_svd_spectrum.csv,phase3,__source__,record_type;analytical_category,source adapter classification,yes,yes,All original fields are retained in source_attributes_json.,processed
+phase3_svd_spectrum.csv,phase3,index,observation_index,observation identity,yes,yes,,processed
+phase3_svd_spectrum.csv,phase3,singular_value,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase3_svd_spectrum.csv,phase3,normalized_singular_value,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase3_svd_spectrum.csv,phase3,cumulative_energy,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase3_svd_summary.csv,phase3,__source__,record_type;analytical_category,source adapter classification,yes,yes,All original fields are retained in source_attributes_json.,processed
+phase3_svd_summary.csv,phase3,rows,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase3_svd_summary.csv,phase3,columns,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase3_svd_summary.csv,phase3,relative_tolerance,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase3_svd_summary.csv,phase3,rank_threshold,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase3_svd_summary.csv,phase3,numerical_rank,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase3_svd_summary.csv,phase3,total_singular_values,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase3_svd_summary.csv,phase3,largest_singular_value,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase3_svd_summary.csv,phase3,smallest_singular_value,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase3_svd_summary.csv,phase3,condition_number,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase3_svd_summary.csv,phase3,diagnostic,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase4_regularization_comparison.csv,phase4,__source__,record_type;analytical_category,source adapter classification,yes,yes,All original fields are retained in source_attributes_json.,processed
+phase4_regularization_comparison.csv,phase4,method,method,identity or method,yes,yes,,processed
+phase4_regularization_comparison.csv,phase4,status,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase4_regularization_comparison.csv,phase4,parameter_name,parameter_name,identity or method,yes,yes,,processed
+phase4_regularization_comparison.csv,phase4,parameter_value,parameter_value,identity or method,yes,yes,,processed
+phase4_regularization_comparison.csv,phase4,relative_reconstruction_error,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase4_regularization_comparison.csv,phase4,mean_squared_error,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase4_regularization_comparison.csv,phase4,peak_signal_to_noise_ratio,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase4_regularization_comparison.csv,phase4,structural_similarity_index,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase4_regularization_comparison.csv,phase4,residual_norm,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase4_regularization_comparison.csv,phase4,relative_residual,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase4_regularization_comparison.csv,phase4,execution_time_seconds,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase4_regularization_comparison.csv,phase4,diagnostic,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase4_tikhonov_results.csv,phase4,__source__,record_type;analytical_category,source adapter classification,yes,yes,All original fields are retained in source_attributes_json.,processed
+phase4_tikhonov_results.csv,phase4,method,method,identity or method,yes,yes,,processed
+phase4_tikhonov_results.csv,phase4,status,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase4_tikhonov_results.csv,phase4,parameter_name,parameter_name,identity or method,yes,yes,,processed
+phase4_tikhonov_results.csv,phase4,parameter_value,parameter_value,identity or method,yes,yes,,processed
+phase4_tikhonov_results.csv,phase4,relative_reconstruction_error,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase4_tikhonov_results.csv,phase4,mean_squared_error,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase4_tikhonov_results.csv,phase4,peak_signal_to_noise_ratio,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase4_tikhonov_results.csv,phase4,structural_similarity_index,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase4_tikhonov_results.csv,phase4,residual_norm,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase4_tikhonov_results.csv,phase4,relative_residual,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase4_tikhonov_results.csv,phase4,execution_time_seconds,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase4_tikhonov_results.csv,phase4,diagnostic,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase4_tikhonov_results.csv,phase4,augmented_max_absolute_difference,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase4_tikhonov_results.csv,phase4,augmented_execution_time_seconds,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase4_tsvd_results.csv,phase4,__source__,record_type;analytical_category,source adapter classification,yes,yes,All original fields are retained in source_attributes_json.,processed
+phase4_tsvd_results.csv,phase4,method,method,identity or method,yes,yes,,processed
+phase4_tsvd_results.csv,phase4,status,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase4_tsvd_results.csv,phase4,parameter_name,parameter_name,identity or method,yes,yes,,processed
+phase4_tsvd_results.csv,phase4,parameter_value,parameter_value,identity or method,yes,yes,,processed
+phase4_tsvd_results.csv,phase4,relative_reconstruction_error,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase4_tsvd_results.csv,phase4,mean_squared_error,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase4_tsvd_results.csv,phase4,peak_signal_to_noise_ratio,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase4_tsvd_results.csv,phase4,structural_similarity_index,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase4_tsvd_results.csv,phase4,residual_norm,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase4_tsvd_results.csv,phase4,relative_residual,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase4_tsvd_results.csv,phase4,execution_time_seconds,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase4_tsvd_results.csv,phase4,diagnostic,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase4_tsvd_results.csv,phase4,numerical_rank,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase4_tsvd_results.csv,phase4,rank_threshold,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase5_selection_curves.csv,phase5,__source__,record_type;analytical_category,source adapter classification,yes,yes,All original fields are retained in source_attributes_json.,processed
+phase5_selection_curves.csv,phase5,method,method,identity or method,yes,yes,,processed
+phase5_selection_curves.csv,phase5,candidate_index,observation_index,observation identity,yes,yes,,processed
+phase5_selection_curves.csv,phase5,parameter,parameter_name;parameter_value,parameter,yes,yes,,processed
+phase5_selection_curves.csv,phase5,residual_norm,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase5_selection_curves.csv,phase5,solution_norm,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase5_selection_curves.csv,phase5,effective_degrees_of_freedom,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase5_selection_curves.csv,phase5,gcv_numerator,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase5_selection_curves.csv,phase5,gcv_denominator,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase5_selection_curves.csv,phase5,lcurve_curvature,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase5_selection_curves.csv,phase5,gcv,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase5_selection_curves.csv,phase5,discrepancy_absolute_error,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase5_selection_summary.csv,phase5,__source__,record_type;analytical_category,source adapter classification,yes,yes,All original fields are retained in source_attributes_json.,processed
+phase5_selection_summary.csv,phase5,method,method,identity or method,yes,yes,,processed
+phase5_selection_summary.csv,phase5,criterion,parameter_selection_method,identity or method,yes,yes,,processed
+phase5_selection_summary.csv,phase5,selected_parameter,parameter_name;parameter_value,parameter,yes,yes,,processed
+phase5_selection_summary.csv,phase5,selected_index,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase5_selection_summary.csv,phase5,residual_norm,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase5_selection_summary.csv,phase5,relative_residual,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase5_selection_summary.csv,phase5,relative_reconstruction_error,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase5_selection_summary.csv,phase5,mse,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase5_selection_summary.csv,phase5,psnr_db,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase5_selection_summary.csv,phase5,ssim,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase5_selection_summary.csv,phase5,discrepancy_factor,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase5_selection_summary.csv,phase5,noise_standard_deviation,noise_standard_deviation,explicit configuration,yes,yes,,processed
+phase5_selection_summary.csv,phase5,seed,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase5_selection_summary.csv,phase5,image_shape,image_shape,explicit configuration,yes,yes,,processed
+phase5_selection_summary.csv,phase5,sigma,blur_sigma,explicit configuration,yes,yes,,processed
+phase5_selection_summary.csv,phase5,kernel_size,kernel_size,explicit configuration,yes,yes,,processed
+phase5_selection_summary.csv,phase5,relative_tolerance,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase6_aggregated_summary.csv,phase6,__source__,record_type;analytical_category,source adapter classification,yes,yes,All original fields are retained in source_attributes_json.,processed
+phase6_aggregated_summary.csv,phase6,sensitivity_axis,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase6_aggregated_summary.csv,phase6,aggregation_condition,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase6_aggregated_summary.csv,phase6,method,method,identity or method,yes,yes,,processed
+phase6_aggregated_summary.csv,phase6,criterion,parameter_selection_method,identity or method,yes,yes,,processed
+phase6_aggregated_summary.csv,phase6,metric,metric_name,aggregate metric label,yes,yes,Used with each aggregate statistic.,processed
+phase6_aggregated_summary.csv,phase6,n,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase6_aggregated_summary.csv,phase6,mean,metric_value,aggregate statistic,yes,yes,Metric name is derived from metric and statistic.,processed
+phase6_aggregated_summary.csv,phase6,standard_deviation,metric_value,aggregate statistic,yes,yes,Metric name is derived from metric and statistic.,processed
+phase6_aggregated_summary.csv,phase6,median,metric_value,aggregate statistic,yes,yes,Metric name is derived from metric and statistic.,processed
+phase6_aggregated_summary.csv,phase6,minimum,metric_value,aggregate statistic,yes,yes,Metric name is derived from metric and statistic.,processed
+phase6_aggregated_summary.csv,phase6,maximum,metric_value,aggregate statistic,yes,yes,Metric name is derived from metric and statistic.,processed
+phase6_raw_results.csv,phase6,__source__,record_type;analytical_category,source adapter classification,yes,yes,All original fields are retained in source_attributes_json.,processed
+phase6_raw_results.csv,phase6,case_id,case_id;experiment_id,identity or method,yes,yes,,processed
+phase6_raw_results.csv,phase6,sensitivity_axis,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase6_raw_results.csv,phase6,condition_value,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase6_raw_results.csv,phase6,aggregation_condition,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase6_raw_results.csv,phase6,image_height,image_height,explicit configuration,yes,yes,,processed
+phase6_raw_results.csv,phase6,image_width,image_width,explicit configuration,yes,yes,,processed
+phase6_raw_results.csv,phase6,pixel_count,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase6_raw_results.csv,phase6,sigma,blur_sigma,explicit configuration,yes,yes,,processed
+phase6_raw_results.csv,phase6,kernel_size,kernel_size,explicit configuration,yes,yes,,processed
+phase6_raw_results.csv,phase6,boundary,boundary,explicit configuration,yes,yes,,processed
+phase6_raw_results.csv,phase6,noise_standard_deviation,noise_standard_deviation,explicit configuration,yes,yes,,processed
+phase6_raw_results.csv,phase6,random_seed,random_seed,explicit configuration,yes,yes,,processed
+phase6_raw_results.csv,phase6,relative_rank_tolerance,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase6_raw_results.csv,phase6,discrepancy_factor,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase6_raw_results.csv,phase6,method,method,identity or method,yes,yes,,processed
+phase6_raw_results.csv,phase6,criterion,parameter_selection_method,identity or method,yes,yes,,processed
+phase6_raw_results.csv,phase6,parameter_type,parameter_name;parameter_value,parameter,yes,yes,,processed
+phase6_raw_results.csv,phase6,selected_parameter,parameter_name;parameter_value,parameter,yes,yes,,processed
+phase6_raw_results.csv,phase6,selected_rank,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase6_raw_results.csv,phase6,selected_lambda,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase6_raw_results.csv,phase6,criterion_score,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase6_raw_results.csv,phase6,status,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase6_raw_results.csv,phase6,diagnostic,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase6_raw_results.csv,phase6,relative_reconstruction_error,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase6_raw_results.csv,phase6,mean_squared_error,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase6_raw_results.csv,phase6,peak_signal_to_noise_ratio,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase6_raw_results.csv,phase6,structural_similarity_index,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase6_raw_results.csv,phase6,residual_norm,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase6_raw_results.csv,phase6,relative_residual,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase6_raw_results.csv,phase6,reconstruction_norm,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase6_raw_results.csv,phase6,reference_norm,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase6_raw_results.csv,phase6,numerical_rank,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase6_raw_results.csv,phase6,condition_number,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase6_raw_results.csv,phase6,execution_time_seconds,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase6_raw_results.csv,phase6,problem_setup_seconds,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase6_raw_results.csv,phase6,unstable_solution,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase6_raw_results.csv,phase6,instability_rule,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase6_selected_parameters.csv,phase6,__source__,record_type;analytical_category,source adapter classification,yes,yes,All original fields are retained in source_attributes_json.,processed
+phase6_selected_parameters.csv,phase6,case_id,case_id;experiment_id,identity or method,yes,yes,,processed
+phase6_selected_parameters.csv,phase6,sensitivity_axis,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase6_selected_parameters.csv,phase6,condition_value,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase6_selected_parameters.csv,phase6,method,method,identity or method,yes,yes,,processed
+phase6_selected_parameters.csv,phase6,criterion,parameter_selection_method,identity or method,yes,yes,,processed
+phase6_selected_parameters.csv,phase6,selection_status,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase6_selected_parameters.csv,phase6,selected_parameter,parameter_name;parameter_value,parameter,yes,yes,,processed
+phase6_selected_parameters.csv,phase6,selected_index,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase6_selected_parameters.csv,phase6,criterion_score,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase6_selected_parameters.csv,phase6,diagnostic,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase7_case_metadata.csv,phase7,__source__,record_type;analytical_category,source adapter classification,yes,yes,All original fields are retained in source_attributes_json.,processed
+phase7_case_metadata.csv,phase7,case_id,case_id;experiment_id,identity or method,yes,yes,,processed
+phase7_case_metadata.csv,phase7,image_shape,image_shape,explicit configuration,yes,yes,,processed
+phase7_case_metadata.csv,phase7,sigma,blur_sigma,explicit configuration,yes,yes,,processed
+phase7_case_metadata.csv,phase7,kernel_size,kernel_size,explicit configuration,yes,yes,,processed
+phase7_case_metadata.csv,phase7,noise_standard_deviation,noise_standard_deviation,explicit configuration,yes,yes,,processed
+phase7_case_metadata.csv,phase7,random_seed,random_seed,explicit configuration,yes,yes,,processed
+phase7_case_metadata.csv,phase7,boundary,boundary,explicit configuration,yes,yes,,processed
+phase7_case_metadata.csv,phase7,operator_shape,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase7_case_metadata.csv,phase7,dense_svd_used,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase7_case_metadata.csv,phase7,full_dense_matrix_constructed,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase7_case_metadata.csv,phase7,full_image_dense_svd_used,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase7_case_metadata.csv,phase7,one_dimensional_factor_svd_used_for_exact_condition,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase7_case_metadata.csv,phase7,forward_consistency_error,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase7_case_metadata.csv,phase7,operator_condition_number_from_1d_factors,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase7_case_metadata.csv,phase7,original_array_file,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase7_case_metadata.csv,phase7,blurred_array_file,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase7_case_metadata.csv,phase7,noise_array_file,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase7_case_metadata.csv,phase7,noisy_observation_array_file,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase7_iterative_results.csv,phase7,__source__,record_type;analytical_category,source adapter classification,yes,yes,All original fields are retained in source_attributes_json.,processed
+phase7_iterative_results.csv,phase7,case_id,case_id;experiment_id,identity or method,yes,yes,,processed
+phase7_iterative_results.csv,phase7,image_height,image_height,explicit configuration,yes,yes,,processed
+phase7_iterative_results.csv,phase7,image_width,image_width,explicit configuration,yes,yes,,processed
+phase7_iterative_results.csv,phase7,pixel_count,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase7_iterative_results.csv,phase7,operator_rows,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase7_iterative_results.csv,phase7,operator_columns,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase7_iterative_results.csv,phase7,sigma,blur_sigma,explicit configuration,yes,yes,,processed
+phase7_iterative_results.csv,phase7,kernel_size,kernel_size,explicit configuration,yes,yes,,processed
+phase7_iterative_results.csv,phase7,boundary,boundary,explicit configuration,yes,yes,,processed
+phase7_iterative_results.csv,phase7,noise_standard_deviation,noise_standard_deviation,explicit configuration,yes,yes,,processed
+phase7_iterative_results.csv,phase7,random_seed,random_seed,explicit configuration,yes,yes,,processed
+phase7_iterative_results.csv,phase7,method,method,identity or method,yes,yes,,processed
+phase7_iterative_results.csv,phase7,run_type,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase7_iterative_results.csv,phase7,requested_iteration_limit,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase7_iterative_results.csv,phase7,iteration_count,iteration,iteration identity,yes,yes,,processed
+phase7_iterative_results.csv,phase7,relative_tolerance,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase7_iterative_results.csv,phase7,absolute_tolerance,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase7_iterative_results.csv,phase7,damping_parameter_lambda,parameter_name;parameter_value,parameter,yes,yes,,processed
+phase7_iterative_results.csv,phase7,relative_reconstruction_error,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase7_iterative_results.csv,phase7,mean_squared_error,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase7_iterative_results.csv,phase7,peak_signal_to_noise_ratio,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase7_iterative_results.csv,phase7,structural_similarity_index,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase7_iterative_results.csv,phase7,residual_norm,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase7_iterative_results.csv,phase7,relative_residual,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase7_iterative_results.csv,phase7,normal_equation_residual_norm,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase7_iterative_results.csv,phase7,reconstruction_norm,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase7_iterative_results.csv,phase7,termination_code,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase7_iterative_results.csv,phase7,termination_status,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase7_iterative_results.csv,phase7,condition_estimate,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase7_iterative_results.csv,phase7,operator_condition_number_from_1d_factors,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase7_iterative_results.csv,phase7,execution_time_seconds,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase7_iterative_results.csv,phase7,theoretical_dense_operator_bytes,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase7_iterative_results.csv,phase7,theoretical_separable_factor_bytes,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase7_iterative_results.csv,phase7,memory_measurement,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase7_iterative_results.csv,phase7,raw_reconstruction_file,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase7_iterative_results.csv,phase7,case_execution_seconds,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase7_small_system_validation.csv,phase7,__source__,record_type;analytical_category,source adapter classification,yes,yes,All original fields are retained in source_attributes_json.,processed
+phase7_small_system_validation.csv,phase7,method,method,identity or method,yes,yes,,processed
+phase7_small_system_validation.csv,phase7,tolerance,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase7_small_system_validation.csv,phase7,iteration_limit,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase7_small_system_validation.csv,phase7,iterations,iteration,iteration identity,yes,yes,,processed
+phase7_small_system_validation.csv,phase7,termination_status,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed
+phase7_small_system_validation.csv,phase7,relative_solution_difference_from_QR,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase7_small_system_validation.csv,phase7,relative_solution_difference_from_Tikhonov,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase7_small_system_validation.csv,phase7,residual_norm,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase7_small_system_validation.csv,phase7,normal_equation_residual_norm,metric_name;metric_value;metric_unit,metric observation,yes,yes,,processed
+phase7_small_system_validation.csv,phase7,diagnostic,source_attributes_json,source-specific preservation,no,yes,No justified canonical mapping.,processed

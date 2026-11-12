@@ -34,12 +34,12 @@ Thumbs.db
 *.temp
 .env
 
-# Generated research outputs (keep directory markers)
-results/images/*
-!results/images/.gitkeep
-results/plots/*
-!results/plots/.gitkeep
-results/metrics/*
-!results/metrics/.gitkeep
-results/logs/*
-!results/logs/.gitkeep
+# Generated research outputs (uncomment to ignore again)
+# results/images/*
+# !results/images/.gitkeep
+# results/plots/*
+# !results/plots/.gitkeep
+# results/metrics/*
+# !results/metrics/.gitkeep
+# results/logs/*
+# !results/logs/.gitkeep
